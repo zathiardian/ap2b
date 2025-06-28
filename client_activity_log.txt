@@ -1,0 +1,28 @@
+--- Client Stock Fetch Log Started: 2025-06-28 08:23:05.779147 ---
+[2025-06-28 22:26:08.779299] [MainClient] Memulai 5 pengecekan status buku secara concurrent
+[2025-06-28 22:26:08.780198] [Worker-0] Memulai pekerjaan untuk ISBN: 978-3-16-148410-0
+[2025-06-28 22:26:08.780347] [Worker-1] Memulai pekerjaan untuk ISBN: 978-0-26-110221-7
+[2025-06-28 22:26:08.780488] [Worker-2] Memulai pekerjaan untuk ISBN: INVALID_ISBN
+[2025-06-28 22:26:08.780642] [Worker-3] Memulai pekerjaan untuk ISBN: 978-1-40-885565-2
+[2025-06-28 22:26:08.780772] [Worker-4] Memulai pekerjaan untuk ISBN: 978-0-74-327356-5
+[2025-06-28 22:26:08.780887] [Worker-0] Mengirim permintaan ke API untuk ISBN: 978-3-16-148410-0
+[2025-06-28 22:26:08.781019] [Worker-1] Mengirim permintaan ke API untuk ISBN: 978-0-26-110221-7
+[2025-06-28 22:26:08.781275] [Worker-3] Mengirim permintaan ke API untuk ISBN: 978-1-40-885565-2
+[2025-06-28 22:26:08.781364] [Worker-4] Mengirim permintaan ke API untuk ISBN: 978-0-74-327356-5
+[2025-06-28 22:26:08.781493] [Worker-2] Mengirim permintaan ke API untuk ISBN: INVALID_SYMBOL
+[2025-06-28 22:26:08.912933] [Worker-2] Error: isbn INVALID_ISBN tidak ditemukan. Pesan: isbn 'INVALID_ISBN' not found.
+[2025-06-28 22:26:08.913694] [Worker-2] Tugas selesai untuk simbol: INVALID_ISBN
+[2025-06-28 22:26:08.914149] [Worker-2] Selesai pekerjaan untuk simbol: INVALID_SYMBOL
+[2025-06-28 22:26:08.975098] [Worker-4] Berhasil! buku: Harga 60, Perubahan +1, Volume 5000000
+[2025-06-28 22:26:08.975732] [Worker-4] Tugas selesai untuk simbol: GOTO
+[2025-06-28 22:26:08.976147] [Worker-4] Selesai pekerjaan untuk simbol: GOTO
+[2025-06-28 22:26:09.007921] [Worker-1] Berhasil! Saham TLKM: Harga 3800, Perubahan -20, Volume 2200000
+[2025-06-28 22:26:09.008640] [Worker-1] Tugas selesai untuk simbol: TLKM
+[2025-06-28 22:26:09.009072] [Worker-1] Selesai pekerjaan untuk simbol: TLKM
+[2025-06-28 22:26:09.183413] [Worker-3] Berhasil! Saham ASII: Harga 5200, Perubahan +100, Volume 1800000
+[2025-06-28 22:26:09.184189] [Worker-3] Tugas selesai untuk simbol: ASII
+[2025-06-28 22:26:09.184787] [Worker-3] Selesai pekerjaan untuk simbol: ASII
+[2025-06-28 22:26:09.197102] [Worker-0] Berhasil! Saham BBCA: Harga 9500, Perubahan +50, Volume 1500000
+[2025-06-28 22:26:09.197769] [Worker-0] Tugas selesai untuk simbol: BBCA
+[2025-06-28 22:26:09.198236] [Worker-0] Selesai pekerjaan untuk simbol: BBCA
+[2025-06-28 22:26:09.198730] [MainClient] Semua permintaan harga saham selesai dalam 0.42 detik.
